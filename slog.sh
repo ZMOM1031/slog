@@ -1,6 +1,6 @@
 #!/bin/bash
 
-cd /usr/local/src/slog/
+cd $(cd `dirname $0`; pwd)
 touch date_log.txt
 echo "$(date +%F) is OK" >> date_log.txt
 
