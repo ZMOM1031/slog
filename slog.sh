@@ -8,4 +8,3 @@ git pull
 git add .
 git commit -am "Updated: $(date +%F )"
 git push
-
